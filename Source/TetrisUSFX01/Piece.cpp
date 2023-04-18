@@ -95,7 +95,8 @@ void APiece::SpawnBlocks()
         {{0.0, 20.0}, {0.0, 10.0}, {10.0, 10.0}, {10.0, 0.0}, {20.0, 0.0}},                                  // Pieza Escalera
         {{0.0, 0.0}, {0.0, 10.0}, {10.0, 10.0}, {10.0, 20.0}, {10.0, 30.0}, {0.0, 30.0}}                     // Pieza Signo de Pregunta 
     };
-    const int Index = FMath::RandRange(7, Shapes.size() - 1);               // Generar un número aleatorio entre 0 y el tamaño de la lista de piezas
+    //const int Index = FMath::RandRange(7, Shapes.size() - 1);             // Genera un numero aleatorio entre 7 y el tamaño de la lista de piezas, muestra solamente las piezas nuevas que cree en el juego
+    const int Index = FMath::RandRange(0, Shapes.size() - 1);               // Generar un número aleatorio entre 0 y el tamaño de la lista de piezas
     UE_LOG(LogTemp, Warning, TEXT("index=%d"), Index);  				    // Imprimir el número aleatorio generado
     const std::vector<std::pair<float, float>>& YZs = Shapes[Index];        // Obtener la pieza correspondiente al número aleatorio generado
     for (auto&& YZ : YZs)  												    // Iterar sobre la pieza

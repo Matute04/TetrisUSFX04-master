@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TETRISUSFX01_Piece_generated_h
 
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_SPARSE_DATA
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_RPC_WRAPPERS
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_INCLASS_NO_PURE_DECLS \
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_SPARSE_DATA
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_RPC_WRAPPERS
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPiece(); \
 	friend struct Z_Construct_UClass_APiece_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APiece)
 
 
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_INCLASS \
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAPiece(); \
 	friend struct Z_Construct_UClass_APiece_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APiece)
 
 
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_STANDARD_CONSTRUCTORS \
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APiece(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APiece) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_ENHANCED_CONSTRUCTORS \
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APiece(APiece&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APiece)
 
 
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_PRIVATE_PROPERTY_OFFSET
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_11_PROLOG
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_GENERATED_BODY_LEGACY \
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_PRIVATE_PROPERTY_OFFSET
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_11_PROLOG
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_PRIVATE_PROPERTY_OFFSET \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_SPARSE_DATA \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_RPC_WRAPPERS \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_INCLASS \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_STANDARD_CONSTRUCTORS \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_PRIVATE_PROPERTY_OFFSET \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_SPARSE_DATA \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_RPC_WRAPPERS \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_INCLASS \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_GENERATED_BODY \
+#define TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_PRIVATE_PROPERTY_OFFSET \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_SPARSE_DATA \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_INCLASS_NO_PURE_DECLS \
-	TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h_14_ENHANCED_CONSTRUCTORS \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_PRIVATE_PROPERTY_OFFSET \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_SPARSE_DATA \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_INCLASS_NO_PURE_DECLS \
+	TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TETRISUSFX01_API UClass* StaticClass<class APiece>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID TetrisUSFX01_master_Source_TetrisUSFX01_Piece_h
+#define CURRENT_FILE_ID TetrisUSFX04_master_Source_TetrisUSFX01_Piece_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
